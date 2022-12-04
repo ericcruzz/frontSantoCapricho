@@ -53,7 +53,7 @@ showModal=(client)=>{
 
 newModal= () =>{
     this.setState({modalInsert : true, modalType : true})
-    this.newSumbmit();
+    this.newSumbmitHandler();
 }
 
 changeHandler = (e) =>{
