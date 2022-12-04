@@ -8,10 +8,10 @@ headers.append('Accept', 'application/json');
 headers.append('Access-Control-Allow-Origin', '*');
 headers.append('Access-Control-Allow-Credentials', 'true');
 
-const urlPut = "http://localhost:8080/ticket/editar/"
-const urlGet="http://localhost:8080/ticket/buscar/"
-const urlPost="http://localhost:8080/ticket/insertar"
-const urlDelete="http://localhost:8080/ticket/borrar/"
+const urlPut = "https://santo-capricho-back.herokuapp.com/ticket/editar/"
+const urlGet="https://santo-capricho-back.herokuapp.com/ticket/buscar/"
+const urlPost="https://santo-capricho-back.herokuapp.com/ticket/insertar"
+const urlDelete="https://santo-capricho-back.herokuapp.com/ticket/borrar/"
 const fecha = new Date();
 const hoy = fecha.getDate();
 

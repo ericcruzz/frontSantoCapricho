@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import cors from "cors"
+import Axios from "axios"
+
+// Axios.defaults.baseURL="https://santo-capricho-uicui.herokuapp.com/"
+
+/////////////////
+// const app= express();
+// app.use(express.json());
+// app.use(express.urlencoded());
+// app.use(cors());
+/////////////////
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <App />
+    
   </React.StrictMode>
 );
 
