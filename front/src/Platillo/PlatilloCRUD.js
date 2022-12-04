@@ -61,8 +61,8 @@ changeHandler = (e) =>{
  });  
 }
 deleteHandler = (cliente) => {
-   var opcion = alert("Seguro que deseas borrar este registro" + cliente.clienteId)
-    axios.delete(urlDelete+cliente.comandaPlatilloId)
+   var opcion = alert("Seguro que deseas borrar este registro" + cliente.platilloId)
+    axios.delete(urlDelete+cliente.platilloId)
    .then(response=>{
         window.location.href =" "
    }).catch(error=>{
