@@ -7,10 +7,10 @@ headers.append('Accept', 'application/json');
 headers.append('Access-Control-Allow-Origin', '*');
 headers.append('Access-Control-Allow-Credentials', 'true');
 
-const urlPut = "https://santo-capricho-back.herokuapp.com//cliente/editar/"
-const urlGet="https://santo-capricho-back.herokuapp.com//cliente/buscar/"
-const urlPost="https://santo-capricho-back.herokuapp.com//cliente/insertar"
-const urlDelete="https://santo-capricho-back.herokuapp.com//cliente/borrar/"
+const urlPut = "https://santo-capricho-back.herokuapp.com/cliente/editar/"
+const urlGet="https://santo-capricho-back.herokuapp.com/cliente/buscar/"
+const urlPost="https://santo-capricho-back.herokuapp.com/cliente/insertar"
+const urlDelete="https://santo-capricho-back.herokuapp.com/cliente/borrar/"
 
 
 class addCliente extends React.Component {
