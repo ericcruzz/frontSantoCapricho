@@ -78,7 +78,6 @@ newSubmitHandler = async e =>{
     axios.post(urlPost, this.state.form)
    .then(response=>{
         this.modalInsert();
-        window.location.href =" "
    }).catch(error=>{
     console.log(error.errorMsg);
    })
