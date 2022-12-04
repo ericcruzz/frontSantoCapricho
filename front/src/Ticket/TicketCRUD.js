@@ -214,7 +214,7 @@ onChangeValue(event){
                     </div> 
                     </ModalBody>
                     <ModalFooter>
-                            <button type="submit" className='btn btn-primary' onClick={()=>{this.newSubmitHandler(); this.closeModal(); window.location.reload()}}>Submit</button>
+                            <button type="submit" className='btn btn-primary' onClick={()=>{this.newSubmitHandler(); this.closeModal()}}>Submit</button>
                             <button type="submit" className='btn btn-primary' onClick={()=>this.closeModal()}>Cancel</button>
                     </ModalFooter>
                 </Modal> 
