@@ -174,7 +174,7 @@ onChangeValue(event){
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>Forma de Pago</label>
                                 <select className="form-select" name='formaPago' required onChange={this.changeHandler} value={this.state.form.formaPago}>
-                                    <option>Tarjeta</option>
+                                    <option value={this.state.form.formaPago}>Tarjeta</option>
                                     <option>Efectivo</option>
                                     <option>PayPal</option>
                                     <option>QR</option>
