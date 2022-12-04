@@ -169,15 +169,15 @@ onChangeValue(event){
                         <form onSubmit={this.submitHandler}>
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>Fecha</label>
-                                <input type="date" name='fecha' className='form-control' required autoComplete='off' onChange={this.changeHandler} value={this.state.form.fecha} />
+                                <input type="datetime-local" name='fecha' className='form-control' required autoComplete='off' onChange={this.changeHandler} value={this.state.form.fecha} />
                             </div>
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>Forma de Pago</label>
                                 <select className="form-select" name='formaPago' required onChange={this.changeHandler} value={this.state.form.formaPago}>
                                     <option value={this.state.form.formaPago}>Tarjeta</option>
-                                    <option>Efectivo</option>
-                                    <option>PayPal</option>
-                                    <option>QR</option>
+                                    <option value={this.state.form.formaPago}>Efectivo</option>
+                                    <option value={this.state.form.formaPago}>PayPal</option>
+                                    <option value={this.state.form.formaPago}>QR</option>
                                 </select>
                             </div>
                             <div className="mb-3">
