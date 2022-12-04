@@ -31,7 +31,7 @@ constructor(props) {
             total:'',
             factura:'',
             fechaFactura:'',
-            RFC:'',
+            rfc:'',
             comandaId:''
         }
     };
@@ -202,7 +202,7 @@ onChangeValue(event){
                             </div>        
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>RFC</label>
-                                <input type="text" name='RFC' className='form-control' required onChange={this.changeHandler} value={this.state.form.RFC}/>
+                                <input type="text" name='rfc' className='form-control' required onChange={this.changeHandler} value={this.state.form.rfc}/>
                             </div>    
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>comandaId</label>
