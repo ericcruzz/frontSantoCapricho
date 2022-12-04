@@ -69,7 +69,7 @@ changeHandler = (e) =>{
  });  
 }
 deleteHandler = (cliente) => {
-   var opcion = alert("Seguro que deseas borrar este registro" + cliente.clienteId)
+   var opcion = alert("Seguro que deseas borrar este registro" + cliente.ticketId)
     axios.delete(urlDelete+cliente.ticketId)
    .then(response=>{
         window.location.href =" "
