@@ -7,10 +7,10 @@ headers.append('Accept', 'application/json');
 headers.append('Access-Control-Allow-Origin', '*');
 headers.append('Access-Control-Allow-Credentials', 'true');
 
-const urlPut = "http://localhost:8080/platillo/editar/"
-const urlGet="http://localhost:8080/platillo/buscar/"
-const urlPost="http://localhost:8080/platillo/insertar"
-const urlDelete="http://localhost:8080/platillo/borrar/"
+const urlPut = "https://santo-capricho-back.herokuapp.com/platillo/editar/"
+const urlGet="https://santo-capricho-back.herokuapp.com/platillo/buscar/"
+const urlPost="https://santo-capricho-back.herokuapp.com/platillo/insertar"
+const urlDelete="https://santo-capricho-back.herokuapp.com/platillo/borrar/"
 
 class PlatilloCRUD extends React.Component {
 constructor(props) {

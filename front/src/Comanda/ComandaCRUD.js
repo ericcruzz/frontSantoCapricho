@@ -9,10 +9,10 @@ headers.append('Access-Control-Allow-Origin', '*');
 headers.append('Access-Control-Allow-Credentials', 'true');
 const fecha = new Date();
 
-const urlPut = "http://localhost:8080/comanda/editar/"
-const urlGet="http://localhost:8080/comanda/buscar/"
-const urlPost="http://localhost:8080/comanda/insertar"
-const urlDelete="http://localhost:8080/comanda/borrar/"
+const urlPut = "https://santo-capricho-back.herokuapp.com/comanda/editar/"
+const urlGet="https://santo-capricho-back.herokuapp.com/comanda/buscar/"
+const urlPost="https://santo-capricho-back.herokuapp.com/comanda/insertar"
+const urlDelete="https://santo-capricho-back.herokuapp.com/comanda/borrar/"
 
 class ComandaCRUD extends React.Component {
 constructor(props) {

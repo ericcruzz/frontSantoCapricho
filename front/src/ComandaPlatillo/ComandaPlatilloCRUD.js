@@ -7,10 +7,10 @@ headers.append('Accept', 'application/json');
 headers.append('Access-Control-Allow-Origin', '*');
 headers.append('Access-Control-Allow-Credentials', 'true');
 
-const urlPut = "http://localhost:8080/comandaPlatillo/editar/"
-const urlGet="http://localhost:8080/comandaPlatillo/buscar/"
-const urlPost="http://localhost:8080/comandaPlatillo/insertar"
-const urlDelete="http://localhost:8080/comandaPlatillo/borrar/"
+const urlPut = "https://santo-capricho-back.herokuapp.com/comandaPlatillo/editar/"
+const urlGet="https://santo-capricho-back.herokuapp.com/comandaPlatillo/buscar/"
+const urlPost="https://santo-capricho-back.herokuapp.com/comandaPlatillo/insertar"
+const urlDelete="https://santo-capricho-back.herokuapp.com/comandaPlatillo/borrar/"
 
 class ComandaPlatilloCRUD extends React.Component {
 constructor(props) {
