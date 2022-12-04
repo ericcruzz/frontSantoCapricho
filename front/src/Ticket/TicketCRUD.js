@@ -169,7 +169,7 @@ onChangeValue(event){
                         <form onSubmit={this.submitHandler}>
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>Fecha</label>
-                                <input type="datetime-local" name='fecha' className='form-control' required autoComplete='off' onChange={this.changeHandler} value={this.state.form.fecha} />
+                                <input type="date" name='fecha' className='form-control' required autoComplete='off' onChange={this.changeHandler} value={this.state.form.fecha} />
                             </div>
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>Forma de Pago</label>
