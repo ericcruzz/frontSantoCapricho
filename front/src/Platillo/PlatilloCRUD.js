@@ -155,13 +155,13 @@ onChangeValue(event){
                             <div className="mb-3">
                                 <label htmlFor='title' className='add-label'>Tipo de Platillo</label>
                                 <select className="form-select" name='tipoPlatillo' required onChange={this.changeHandler} value={this.state.form.tipoServicio}>
-                                    <option>POSTRE</option>
-                                    <option>TACOS</option>
-                                    <option>GRINGAS</option>
-                                    <option>VOLCANES</option>
-                                    <option>COSTRAS</option>
-                                    <option>ALAMBRES</option>
-                                    <option>BEBIDA</option>
+                                    <option value={this.state.form.tipoServicio}>POSTRE</option>
+                                    <option value={this.state.form.tipoServicio}>TACOS</option>
+                                    <option value={this.state.form.tipoServicio}>GRINGAS</option>
+                                    <option value={this.state.form.tipoServicio}>VOLCANES</option>
+                                    <option value={this.state.form.tipoServicio}>COSTRAS</option>
+                                    <option value={this.state.form.tipoServicio}>ALAMBRES</option>
+                                    <option value={this.state.form.tipoServicio}>BEBIDA</option>
                                 </select>
                             </div>                        
                         </form>
